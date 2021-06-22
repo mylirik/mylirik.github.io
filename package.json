@@ -2,7 +2,7 @@
   "name": "mynewweb",
   "version": "1.0.0",
   "description": "<a> <img src=\"https://komarev.com/ghpvc/?username=aristotelessiregar86&style=flat-square\" alt=\"ryuuwiz\" /> </a> <a href=\"https://www.instagram.com/siregararistoteles/\"> <img src=\"https://img.shields.io/badge/-Instagram-0088cc?style=flat&labelColor=0088cc&logo=instagram&logoColor=white\" /></a>",
-  "main": "script.js",
+  "main": "countdown.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

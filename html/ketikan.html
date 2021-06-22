@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/ketikan.css">
+</head>
+<body>
+    
+
+
+
+    <div class="typed1">
+        <h1 id="typed2"> <span class="typed4"></span></h1>
+        <p id="typed3"> <span class="typed5"></span></p>
+    </div>
+
+    <div class="btn" id="btn">Start</div>
+
+<script src="../typed.js-master/lib/typed.js"></script>
+<script>
+    const tombolWoy = document.querySelector('.btn');
+
+    tombolWoy.addEventListener ('click', function () {
+        var typed = new Typed('.typed4', {
+  // Waits 1000ms after typing "First"
+    strings: [
+            'Hallo',
+            'Welcome To My Tester JS'
+        ],
+    typeSpeed: 60,
+    backDelay: 10000,
+    backSpeed: 60,
+    loop: true
+});
+
+    var typed = new Typed('.typed5', {
+  // Waits 1000ms after typing "First"
+    strings: [
+            'Hallo',
+            'Saya Aristoteles Siregar'
+        ],
+    // typeSpeed Satuannya milisecond :)
+    typeSpeed: 60,
+    // backDelay Satuannya milisecond :)
+    backDelay: 10,
+    // backSpeed Satuannya milisecond :)
+    backSpeed: 60,
+    loop: true
+    
+});    
+
+function removeDummy() {
+ var elem = document.getElementById('btn');
+ elem.parentNode.removeChild(elem);
+}
+
+removeDummy();
+    })
+
+</script>
+</body>
+</html>

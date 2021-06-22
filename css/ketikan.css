@@ -1,0 +1,36 @@
+#typed2 {
+    height: 40px;
+    width: 500px;
+    color: chartreuse;
+    text-align: center;
+    border-style: solid;
+    border-color: darkslategray;
+}
+
+#typed3 {
+    height: 40px;
+    width: 500px;
+    color: chocolate;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: darkslategray;
+}
+
+.btn {
+    height: 40px;
+    width: 500px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: yellow;
+}

@@ -4,6 +4,7 @@ var player = document.querySelector('#player');
 let progress = document.querySelector('#progress');
 let playbtn = document.querySelector('#playbtn');
 
+
 var playpause = function () {
     if (player.paused) {
         player.play();

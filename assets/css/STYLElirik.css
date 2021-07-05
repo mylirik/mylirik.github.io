@@ -106,3 +106,20 @@ body {
     transition: all 1s linear;
     height: 100%;
 }
+
+.btn-a {
+    width: 120px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    text-align: center;
+}
+
+.btn-a:hover {
+    background-color: darkgrey;
+    border-color: black;
+    color: black;
+}
